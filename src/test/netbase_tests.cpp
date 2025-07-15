@@ -610,7 +610,7 @@ BOOST_AUTO_TEST_CASE(isbadport)
             ++total_bad_ports;
         }
     }
-    BOOST_CHECK_EQUAL(total_bad_ports, 80);
+    BOOST_CHECK_EQUAL(total_bad_ports, 85);
 }
 
 BOOST_AUTO_TEST_SUITE_END()
